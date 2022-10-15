@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace ET.Client
 {
@@ -15,8 +16,8 @@ namespace ET.Client
             
             if (Define.IsEditor)
             {
-                string ct = "cs";
                 GlobalConfig globalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
+                string ct = "cs";
                 CodeMode codeMode = globalConfig.CodeMode;
                 switch (codeMode)
                 {

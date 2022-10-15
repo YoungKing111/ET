@@ -2,6 +2,7 @@
     "name": "Unity.Model.Codes",
     "rootNamespace": "",
     "references": [
+        "Unity.Loader",
         "Unity.ThirdParty",
         "Unity.Core",
         "Unity.Mathematics"

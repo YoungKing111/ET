@@ -2,11 +2,11 @@
     "name": "Unity.ModelView.Codes",
     "rootNamespace": "",
     "references": [
+        "Unity.Loader",
         "Unity.ThirdParty",
         "Unity.Core",
         "Unity.Model.Codes",
-        "Unity.Mathematics",
-        "Unity.Loader"
+        "Unity.Mathematics"
     ],
     "includePlatforms": [
         "Editor"
