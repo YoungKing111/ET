@@ -6,7 +6,8 @@
         "Unity.ThirdParty",
         "Unity.Core",
         "Unity.Model.Codes",
-        "Unity.Mathematics"
+        "Unity.Mathematics",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [
         "Editor"
